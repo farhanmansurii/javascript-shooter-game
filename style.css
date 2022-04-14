@@ -1,0 +1,50 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  background-color: rgb(220, 220, 220);
+  padding: 1.5em;
+}
+
+#wcount {
+  padding: 0.5em;
+}
+
+#player-score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h3 {
+  padding: 1em;
+  border: 2px solid blue;
+  border-radius: 1em;
+}
+
+#btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+#score-display {
+  margin: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border: 2px solid blue;
+  border-radius: 2em;
+  padding: 2em;
+  text-align: end;
+  display: flex;
+  justify-content: space-between;
+}
+
+#win {
+  margin: auto;
+  width: 90%;
+  border: 2px solid blue;
+  border-radius: 1em;
+  padding: 1em;
+}
